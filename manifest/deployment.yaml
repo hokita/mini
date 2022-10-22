@@ -15,6 +15,7 @@ spec:
       containers:
         - name: mini
           image: ghcr.io/hokita/mini:main
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
           env:
